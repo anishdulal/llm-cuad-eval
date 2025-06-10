@@ -1,0 +1,11 @@
+torch>=2.1
+transformers>=4.40
+datasets>=2.18
+unsloth>=0.5
+bitsandbytes>=0.43
+accelerate>=0.24
+peft>=0.10
+tqdm
+sentencepiece
+scikit-learn
+numpy

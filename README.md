@@ -1,7 +1,7 @@
 # LLM‑CUAD‑EVAL
 
 Fine‑tune and evaluate **large‑language models (LLMs)** on the **CUAD – Contract Understanding Atticus Dataset**.  
-The project focuses on **Llama 3.2 (3B parameters)** but the intention is to evaluate more models(open as well as paid) in the future.
+The project focuses on **Llama 3.2 (3B parameters)** but the intention is to evaluate more models(open as well as commercial) in the future.
 
 ---
 
@@ -28,7 +28,7 @@ All dependencies are gathered in **`requirements.txt`** – they are the exact v
 
 ## 🚀 Quick start
 
-> **Tip:** Use Python 3.9 / 3.10 and a GPU with ≥ 40 GB VRAM for training.  
+> **Tip:** Use Python>=3.9 and a GPU with ≥ 40 GB VRAM for training.  
 > Evaluation will also run on smaller GPUs or CPU (slow).
 
 ```bash
@@ -43,7 +43,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ````
 
-### 1. Fine‑tune Llama 3 3B on CUAD
+### 1. Fine‑tune Llama 3.2 3B on CUAD
 
 ```bash
 python finetune.py
@@ -97,8 +97,8 @@ See `--help` for all CLI flags (sequence length, output dir, etc.).
 
 ## 🔍 Qualitative examples (before → after)
 
-<details>
-<summary>Click to expand</summary>
+<!-- <details>
+<summary>Click to expand</summary> -->
 
 ```jsonc
 // BEFORE FINETUNING
@@ -180,7 +180,7 @@ See `--help` for all CLI flags (sequence length, output dir, etc.).
 ```
 
 
-</details>
+<!-- </details> -->
 
 ---
 

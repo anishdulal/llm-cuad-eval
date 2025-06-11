@@ -33,7 +33,7 @@ All dependencies are gathered in **`requirements.txt`** – they are the exact v
 
 ```bash
 # clone & enter
-git clone https://github.com/<your‑user>/llm-cuad-eval.git
+git clone https://github.com/anishdulal/llm-cuad-eval.git
 cd llm-cuad-eval
 
 # optional – create a clean venv
